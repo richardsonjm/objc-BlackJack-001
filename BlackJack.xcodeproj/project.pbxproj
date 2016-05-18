@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		368E6CF61CEBF781006B8787 /* FISCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 368E6CF21CEBF781006B8787 /* FISCardDeck.m */; };
-		368E6CF71CEBF781006B8787 /* FISCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 368E6CF41CEBF781006B8787 /* FISCard.m */; };
+		368E6CFC1CEBF894006B8787 /* FISCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 368E6CF91CEBF894006B8787 /* FISCard.m */; };
+		368E6CFD1CEBF894006B8787 /* FISCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 368E6CFB1CEBF894006B8787 /* FISCardDeck.m */; };
 		440FE73819464F8000C45D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73719464F8000C45D87 /* Foundation.framework */; };
 		440FE73A19464F8000C45D87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73919464F8000C45D87 /* CoreGraphics.framework */; };
 		440FE73C19464F8000C45D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73B19464F8000C45D87 /* UIKit.framework */; };
@@ -38,10 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		368E6CF21CEBF781006B8787 /* FISCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISCardDeck.m; path = "../../OOP-Cards-Model-001/OOP-Cards-Model/FISCardDeck.m"; sourceTree = "<group>"; };
-		368E6CF31CEBF781006B8787 /* FISCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISCardDeck.h; path = "../../OOP-Cards-Model-001/OOP-Cards-Model/FISCardDeck.h"; sourceTree = "<group>"; };
-		368E6CF41CEBF781006B8787 /* FISCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISCard.m; path = "../../OOP-Cards-Model-001/OOP-Cards-Model/FISCard.m"; sourceTree = "<group>"; };
-		368E6CF51CEBF781006B8787 /* FISCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISCard.h; path = "../../OOP-Cards-Model-001/OOP-Cards-Model/FISCard.h"; sourceTree = "<group>"; };
+		368E6CF81CEBF894006B8787 /* FISCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCard.h; sourceTree = "<group>"; };
+		368E6CF91CEBF894006B8787 /* FISCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCard.m; sourceTree = "<group>"; };
+		368E6CFA1CEBF894006B8787 /* FISCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCardDeck.h; sourceTree = "<group>"; };
+		368E6CFB1CEBF894006B8787 /* FISCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardDeck.m; sourceTree = "<group>"; };
 		440FE73419464F8000C45D87 /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		440FE73719464F8000C45D87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		440FE73919464F8000C45D87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,10 +126,10 @@
 		440FE73D19464F8000C45D87 /* BlackJack */ = {
 			isa = PBXGroup;
 			children = (
-				368E6CF21CEBF781006B8787 /* FISCardDeck.m */,
-				368E6CF31CEBF781006B8787 /* FISCardDeck.h */,
-				368E6CF41CEBF781006B8787 /* FISCard.m */,
-				368E6CF51CEBF781006B8787 /* FISCard.h */,
+				368E6CF81CEBF894006B8787 /* FISCard.h */,
+				368E6CF91CEBF894006B8787 /* FISCard.m */,
+				368E6CFA1CEBF894006B8787 /* FISCardDeck.h */,
+				368E6CFB1CEBF894006B8787 /* FISCardDeck.m */,
 				440FE74619464F8000C45D87 /* FISAppDelegate.h */,
 				440FE74719464F8000C45D87 /* FISAppDelegate.m */,
 				440FE73E19464F8000C45D87 /* Supporting Files */,
@@ -310,10 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368E6CF71CEBF781006B8787 /* FISCard.m in Sources */,
-				368E6CF61CEBF781006B8787 /* FISCardDeck.m in Sources */,
 				440FE74419464F8000C45D87 /* main.m in Sources */,
 				440FE74819464F8000C45D87 /* FISAppDelegate.m in Sources */,
+				368E6CFC1CEBF894006B8787 /* FISCard.m in Sources */,
+				368E6CFD1CEBF894006B8787 /* FISCardDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
