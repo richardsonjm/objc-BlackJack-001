@@ -11,7 +11,24 @@
 @implementation FISBlackjackGame
 
 - (void)playBlackjack {
-    
+    [self.player resetForNewGame];
+    [self.house resetForNewGame];
+    [self.deck resetDeck];
+    [self dealNewRound];
+    for (NSUInteger i = 0; i < 3; i++) {
+        [self dealCardToPlayer];
+        if ([self.player busted]) {
+            break;
+        }
+        [self dealCardToHouse];
+        if ([self.house busted]) {
+            break;
+        }
+    }
+    BOOL houseWins = [self houseWins];
+    [self incrementWinsAndLossesForHouseWins:houseWins];
+    NSLog(@"%@", self.player);
+    NSLog(@"%@", self.house);
 }
 
 - (void)dealNewRound {
