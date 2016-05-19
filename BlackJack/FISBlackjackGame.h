@@ -34,4 +34,6 @@
 
 - (void)incrementWinsAndLossesForHouseWins:(BOOL)houseWins;
 
+- (instancetype)init;
+
 @end
