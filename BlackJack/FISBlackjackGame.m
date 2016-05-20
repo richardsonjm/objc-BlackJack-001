@@ -16,11 +16,11 @@
     [self.deck resetDeck];
     [self dealNewRound];
     for (NSUInteger i = 0; i < 3; i++) {
-        [self dealCardToPlayer];
+        [self processPlayerTurn];
         if ([self.player busted]) {
             break;
         }
-        [self dealCardToHouse];
+        [self processHouseTurn];
         if ([self.house busted]) {
             break;
         }
